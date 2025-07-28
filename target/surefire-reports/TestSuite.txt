@@ -1,19 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 6.880 s <<< FAILURE! -- in TestSuite
-org.agile.qa.runners.RunnerTests.runScenario["Captcha Validation", "Login Funtionality check."](2) -- Time elapsed: 0.054 s <<< FAILURE!
-io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.i_enter_valid_data_into_form_fields(LoginTest.java:124)
-	at ✽.I enter valid data into form fields.(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:17)
-
-org.agile.qa.runners.RunnerTests.runScenario["Password Reset", "Login Funtionality check."](3) -- Time elapsed: 0.058 s <<< FAILURE!
-io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.i_click_on_the_password_reset_form(LoginTest.java:142)
-	at ✽.I click on the password reset form.(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:22)
-
-org.agile.qa.runners.RunnerTests.runScenario["Unauthenticated users should not access the booking page.", "Login Funtionality check."](4) -- Time elapsed: 0.051 s <<< FAILURE!
-io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.directly_access_the_booking_page_url(LoginTest.java:172)
-	at ✽.directly access the booking page URL(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:29)
-
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.36 s -- in TestSuite

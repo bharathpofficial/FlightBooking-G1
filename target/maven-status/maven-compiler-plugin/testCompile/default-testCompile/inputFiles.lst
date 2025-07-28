@@ -1,8 +1,15 @@
 /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/flightbooking/AppTest.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/hooks/Hooks.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/pages/BaseAuthPage.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/pages/BookingPage.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/pages/FlightSearchPage.java
 /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/pages/LoginPage.java
 /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/runners/RunnerTests.java
 /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/setup/ConfigFileReader.java
 /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/setup/DriverSetup.java
 /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/stepDefinitions/BookingTest.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/stepDefinitions/FlightSearchTest.java
 /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/stepDefinitions/LoginTest.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/utils/ExcelUtils.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/utils/ScreenshotUtils.java
 /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/utils/XmlUtils.java

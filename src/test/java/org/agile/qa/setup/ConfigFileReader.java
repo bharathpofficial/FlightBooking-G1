@@ -49,4 +49,8 @@ public class ConfigFileReader {
 	public String getValidLoginXMLPath() {
 		return properties.getProperty("validLoginXML");
 	}
+	
+	public String getValidBookingExcelPath() {
+		return properties.getProperty("validBookingExcel");
+	}
 }

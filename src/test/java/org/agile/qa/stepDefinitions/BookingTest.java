@@ -1,10 +1,14 @@
 package org.agile.qa.stepDefinitions;
 
+import java.io.IOException;
 import java.time.Duration;
+import java.util.List;
+import java.util.Map;
 
 import org.agile.qa.pages.BookingPage;
 import org.agile.qa.setup.ConfigFileReader;
 import org.agile.qa.setup.DriverSetup;
+import org.agile.qa.utils.ExcelUtils;
 import org.agile.qa.utils.XmlUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +27,7 @@ public class BookingTest {
 	ConfigFileReader fileReader = new ConfigFileReader();
 	BookingPage bookingform;
 	XmlUtils xml = new XmlUtils();
+	ExcelUtils excel = new ExcelUtils();
 	WebDriver driver;
 	private static final Logger logger = LoggerFactory.getLogger(BookingTest.class);
 	
@@ -153,13 +158,42 @@ public class BookingTest {
 
 	@Then("enter valid details.")
 	public void enter_valid_details() {
-	    
+	    List<Map<String, String>> validBookingData;
+	    try {
+	        validBookingData = ExcelUtils.readExcelAsListOfMaps(fileReader.getValidBookingExcelPath(), "validBooking");
+	        Map<String, String> bookingRow = validBookingData.get(0); // Use row 0, or loop for all rows
+
+	        logger.info("Booking data used: {}", bookingRow);
+
+	        bookingform.setTravelFrom(bookingRow.get("travelfrom"));
+	        bookingform.setTravelTo(bookingRow.get("travelto"));
+	        bookingform.setDepartureDate(bookingRow.get("departuredate"));
+
+	        // For dropdown, this assumes .selectByValue() expects the value attribute from Excel
+	        bookingform.selectClass(bookingRow.get("class"));
+
+	        bookingform.setPassengerName(bookingRow.get("name"));
+	        bookingform.setEmail(bookingRow.get("email"));
+	        bookingform.setPhone(bookingRow.get("phone"));
+
+	        // For ticket/passenger count: use increase button utility
+	        int passengers = Integer.parseInt(bookingRow.get("noofpassengers"));
+	        bookingform.increaseTicketCountTo(passengers);
+
+	        logger.info("All input fields set for Booking Form as per excel data.");
+
+
+	    } catch (IOException e) {
+	        logger.error("Failed to read Excel data: {}", e.getMessage(), e);
+	        Assert.fail("Failed to read Excel data: " + e.getMessage());
+	    }
 	}
+
 
 	@Then("Click the Book Now button.")
 	public void click_the_book_now_button() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+         bookingform.clickBookNow();
+         logger.info("Clicked Book Now.");
 	}
 
 }

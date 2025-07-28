@@ -1,27 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-24T09:59:44Z" name="Surefire suite" finished-at="2025-07-24T09:59:51Z" duration-ms="6656">
+  <suite started-at="2025-07-28T14:29:45Z" name="Surefire suite" finished-at="2025-07-28T14:30:11Z" duration-ms="26181">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@ba8d91c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-24T09:59:44Z" name="Surefire test" finished-at="2025-07-24T09:59:51Z" duration-ms="6656">
+    <test started-at="2025-07-28T14:29:45Z" name="Surefire test" finished-at="2025-07-28T14:30:11Z" duration-ms="26181">
       <class name="org.agile.qa.runners.RunnerTests">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.agile.qa.runners.RunnerTests@ba8d91c]" started-at="2025-07-24T15:29:44Z" name="setUpClass" finished-at="2025-07-24T15:29:44Z" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T19:59:45Z" name="setUpClass" finished-at="2025-07-28T19:59:45Z" duration-ms="180" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@493ac8d3]]>
+                <![CDATA[org.testng.TestRunner@5af40e45]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@ba8d91c]" started-at="2025-07-24T15:29:45Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-24T15:29:51Z" duration-ms="6262" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T19:59:45Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-28T19:59:52Z" duration-ms="7008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Date in Flight booking."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight Ticket Booking check."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T19:59:52Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-28T19:59:53Z" duration-ms="1150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating calculation result while data is invalid."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight Ticket Booking check."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T19:59:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-28T19:59:53Z" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate log out button."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight Ticket Booking check."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T19:59:53Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-28T19:59:57Z" duration-ms="3343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Book Now button validation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Flight Ticket Booking check."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T19:59:57Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-28T20:00:00Z" duration-ms="2915" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@ba8d91c]" started-at="2025-07-24T15:29:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-24T15:29:51Z" duration-ms="55" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T20:00:00Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-28T20:00:00Z" duration-ms="374" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,21 +114,10 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
-            <message>
-              <![CDATA[TODO: implement me]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.i_enter_valid_data_into_form_fields(LoginTest.java:124)
-	at ✽.I enter valid data into form fields.(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:17)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@ba8d91c]" started-at="2025-07-24T15:29:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-24T15:29:51Z" duration-ms="58" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T20:00:00Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-28T20:00:00Z" duration-ms="327" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,21 +130,10 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
-            <message>
-              <![CDATA[TODO: implement me]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.i_click_on_the_password_reset_form(LoginTest.java:142)
-	at ✽.I click on the password reset form.(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:22)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@ba8d91c]" started-at="2025-07-24T15:29:51Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-24T15:29:51Z" duration-ms="51" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T20:00:00Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-28T20:00:11Z" duration-ms="10368" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,21 +146,10 @@
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.java.PendingException">
-            <message>
-              <![CDATA[TODO: implement me]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.directly_access_the_booking_page_url(LoginTest.java:172)
-	at ✽.directly access the booking page URL(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:29)
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.java.PendingException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.agile.qa.runners.RunnerTests@ba8d91c]" started-at="2025-07-24T15:29:51Z" name="tearDownClass" finished-at="2025-07-24T15:29:51Z" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.agile.qa.runners.RunnerTests@58134517]" started-at="2025-07-28T20:00:11Z" name="tearDownClass" finished-at="2025-07-28T20:00:11Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

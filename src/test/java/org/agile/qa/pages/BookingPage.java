@@ -3,6 +3,7 @@ package org.agile.qa.pages;
 import java.time.Duration;
 
 import org.agile.qa.setup.DriverSetup;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,6 +20,7 @@ public class BookingPage extends BaseAuthPage {
 	
     public BookingPage(WebDriver driver) {
         super(driver);
+        this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT));
     }
     
@@ -91,7 +93,7 @@ public class BookingPage extends BaseAuthPage {
     public void selectClass(String classValue) {
         waitForVisibility(selectClassDropdown);
         org.openqa.selenium.support.ui.Select dropdown = new org.openqa.selenium.support.ui.Select(selectClassDropdown);
-        dropdown.selectByValue(classValue);
+        dropdown.selectByVisibleText(classValue);
     }
 
     public void setPassengerName(String name) {
@@ -123,6 +125,7 @@ public class BookingPage extends BaseAuthPage {
 
     public void increaseTicketCountTo(int targetCount) {
         waitForVisibility(ticketClassIncreaseButton);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", ticketClassIncreaseButton);
         final int[] currentCount = {getTicketCount()};
         while (currentCount[0] < targetCount) {
             waitForClickable(ticketClassIncreaseButton);
