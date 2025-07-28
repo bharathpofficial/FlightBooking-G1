@@ -151,5 +151,15 @@ public class BookingTest {
 	    }
 	}
 
+	@Then("enter valid details.")
+	public void enter_valid_details() {
+	    
+	}
+
+	@Then("Click the Book Now button.")
+	public void click_the_book_now_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
 
 }

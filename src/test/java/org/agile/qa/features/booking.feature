@@ -18,3 +18,7 @@ Feature: Flight Ticket Booking check.
 		Then locate log out button.
 		And click on log out button and validate it got logged out.
 		
+	Scenario: Book Now button validation
+		Then enter valid details.
+		And Click the Book Now button.
+		

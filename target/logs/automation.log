@@ -540,3 +540,32 @@ java.nio.file.NoSuchFileException: ./screenshots/logintest/no_rememberme_error_p
 2025-07-26 23:50:46 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
 2025-07-26 23:50:46 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_2350.png
 2025-07-26 23:50:46 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-28 17:29:18 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-28 17:29:18 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-28 17:29:24 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Navigated to login page: https://webapps.tekstac.com/FlightBooking/login.html
+2025-07-28 17:29:25 [main] INFO  org.agile.qa.pages.BaseAuthPage - Alert found and accepted after login click.
+2025-07-28 17:29:25 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Login performed with provided credentials.
+2025-07-28 17:29:26 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Entered invalid departure date for validation.
+2025-07-28 17:29:26 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: departure-date-error
+2025-07-28 17:29:26 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Warning message element NOT found – raise bug!
+2025-07-28 17:29:26 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-28 17:29:26 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-28 17:29:27 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Navigated to login page: https://webapps.tekstac.com/FlightBooking/login.html
+2025-07-28 17:29:27 [main] INFO  org.agile.qa.pages.BaseAuthPage - Alert found and accepted after login click.
+2025-07-28 17:29:27 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Login performed with provided credentials.
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Entered invalid details for passenger fields.
+2025-07-28 17:29:28 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Displayed total amount does not match expected: 
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Navigated to login page: https://webapps.tekstac.com/FlightBooking/login.html
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.pages.BaseAuthPage - Alert found and accepted after login click.
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Login performed with provided credentials.
+2025-07-28 17:29:28 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: logout-btn
+2025-07-28 17:29:28 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Logout button NOT found – raise bug!
+2025-07-28 17:29:28 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: logout-btn
+2025-07-28 17:29:28 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Logout button NOT found, cannot perform logout – raise bug!
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-28 17:29:28 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Navigated to login page: https://webapps.tekstac.com/FlightBooking/login.html
+2025-07-28 17:29:29 [main] INFO  org.agile.qa.pages.BaseAuthPage - Alert found and accepted after login click.
+2025-07-28 17:29:29 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Login performed with provided credentials.
