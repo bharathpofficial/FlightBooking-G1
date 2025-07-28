@@ -24,6 +24,8 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.TimeoutException;
 
 import io.cucumber.datatable.DataTable;
+
+import org.agile.qa.hooks.Hooks;
 import org.agile.qa.pages.LoginPage;
 
 import org.slf4j.Logger;
@@ -31,7 +33,6 @@ import org.slf4j.LoggerFactory;
 
 public class LoginTest {
 	
-	static WebDriver driver;
 	ConfigFileReader fileReader = new ConfigFileReader();
 	LoginPage loginWeb;
 	private static final Logger logger = LoggerFactory.getLogger(LoginTest.class);
@@ -39,12 +40,11 @@ public class LoginTest {
 	
 	@Given("navigate to the application login URL")
 	public void navigate_to_the_application_login_url() {
-	    driver = DriverSetup.getDriver();
 	    logger.info("Driver initiated at LoginTest");
-	    driver.navigate().to(fileReader.getLoginUrl());
+	    Hooks.driver.navigate().to(fileReader.getLoginUrl());
 	    
-	    loginWeb = new LoginPage(driver);
-	    ss = new ScreenshotUtils(driver);
+	    loginWeb = new LoginPage(Hooks.driver);
+	    ss = new ScreenshotUtils(Hooks.driver);
 	    logger.info("LoginPage initiated successfully");
 	}
 
@@ -95,7 +95,7 @@ public class LoginTest {
 
 	@Then("I {string} the popup window")
 	public void i_the_popup_window(String acceptOrDeny) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10));
 		
 		Alert rememberMeAlert = wait.until(ExpectedConditions.alertIsPresent());
 		loginWeb.handleAlert(rememberMeAlert, acceptOrDeny);
@@ -112,7 +112,7 @@ public class LoginTest {
 
 	@Then("Finally Remember me error expected.")
 	public void finally_remember_me_error_expected() {
-		String pageContent = driver.getPageSource();
+		String pageContent = Hooks.driver.getPageSource();
 		
 		boolean isErrorPresent = pageContent.contains("Remember me expect username and password to be entered");
 		
@@ -166,7 +166,7 @@ public class LoginTest {
 
 	@Then("I get to see the password reset form.")
 	public void i_get_to_see_the_password_reset_form() {
-		String pageContent = driver.getPageSource();
+		String pageContent = Hooks.driver.getPageSource();
 		
 		boolean isErrorPresent = pageContent.contains("Password Reset");
 		
@@ -195,12 +195,12 @@ public class LoginTest {
 
 	@When("directly access the booking page URL")
 	public void directly_access_the_booking_page_url() {
-	    driver.navigate().to(fileReader.getBookingUrl());
+		Hooks.driver.navigate().to(fileReader.getBookingUrl());
 	}
 
 	@Then("the user should be redirected to the login page")
 	public void the_user_should_be_redirected_to_the_login_page() {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	    WebDriverWait wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(5));
 	    try {
 	        WebElement loginHeading = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("login-heading")));
 	        Assert.assertTrue(loginHeading.isDisplayed(), "Login heading should be visible");
@@ -215,7 +215,7 @@ public class LoginTest {
 
 	@Then("the booking page should not be accessible")
 	public void the_booking_page_should_not_be_accessible() {
-	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	    WebDriverWait wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(5));
 	    boolean forbidden = false;
 	    try {
 	        // Wait for error indicator on access denial

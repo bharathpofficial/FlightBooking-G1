@@ -2,6 +2,7 @@ package org.agile.qa.pages;
 
 import java.time.Duration;
 
+import org.agile.qa.hooks.Hooks;
 import org.agile.qa.stepDefinitions.BookingTest;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.NoAlertPresentException;

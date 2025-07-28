@@ -11,13 +11,16 @@ public class Hooks {
     @Before
     public void setUp() {
         driver = DriverSetup.getDriver();
-        // additional setup if needed
+        System.out.println("WebDriver instantiated: " + driver);
     }
 
     @After
     public void tearDown() {
         if (driver != null) {
             driver.quit();
+            System.out.println("WebDriver quit");
+            driver = null;
         }
     }
+
 }

@@ -5,6 +5,7 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 
+import org.agile.qa.hooks.Hooks;
 import org.agile.qa.pages.BookingPage;
 import org.agile.qa.setup.ConfigFileReader;
 import org.agile.qa.setup.DriverSetup;
@@ -28,24 +29,23 @@ public class BookingTest {
 	BookingPage bookingform;
 	XmlUtils xml = new XmlUtils();
 	ExcelUtils excel = new ExcelUtils();
-	WebDriver driver;
 	private static final Logger logger = LoggerFactory.getLogger(BookingTest.class);
 	
 	@Given("that I navigate to login page.")
 	public void that_i_navigate_to_login_page() {
-		driver = DriverSetup.getDriver();
+
 	    
-	    driver.navigate().to(fileReader.getLoginUrl());
+		Hooks.driver.navigate().to(fileReader.getLoginUrl());
 	    
-	    bookingform = new BookingPage(driver);
+	    bookingform = new BookingPage(Hooks.driver);
 	    
-	    this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+	    this.wait = new WebDriverWait(Hooks.driver, Duration.ofSeconds(10));
         logger.info("Navigated to login page: {}", fileReader.getLoginUrl());
 	}
 	
 	public WebElement safeFindElement(By locator) {
 	    try {
-	        return driver.findElement(locator);
+	        return Hooks.driver.findElement(locator);
 	    } catch (org.openqa.selenium.NoSuchElementException e) {
 	        logger.warn("Element NOT found: {}", locator);
 	        return null;
