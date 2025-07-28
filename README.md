@@ -1,6 +1,6 @@
 # FlightBooking-G1 Automation Framework
 
-## 🚀 How to Collaborate
+## 🚀 How to Collaborate?
 
 Welcome to the FlightBooking-G1 test automation project! To ensure effective team collaboration, please follow these standardized steps:
 
