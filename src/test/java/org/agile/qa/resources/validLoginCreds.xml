@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<LoginDetails>
+  <login admin="true">
+    <username>flightadmin</username>
+    <password>flightadmin</password>
+  </login>
+  <login>
+  	<username>Name</username>
+  	<password>Password</password>
+  </login>
+</LoginDetails>

@@ -1,0 +1,542 @@
+2025-07-24 15:29:48 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:29:50 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:29:50 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-24 15:29:50 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-24 15:29:51 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:29:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:31:22 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:31:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:31:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-24 15:31:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-24 15:31:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-24 15:31:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-24 15:31:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-24 15:31:26 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-24 15:31:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:31:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:31:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:31:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:31:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:31:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:32:07 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:32:09 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:32:09 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-24 15:32:09 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-24 15:32:09 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-24 15:32:10 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-24 15:32:10 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-24 15:32:10 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-24 15:32:10 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:32:10 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:32:10 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:32:10 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 15:32:10 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 15:32:10 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 16:26:24 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 16:26:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-24 16:26:27 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 16:26:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 16:28:47 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 16:28:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 16:28:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-24 16:28:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-24 16:28:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-24 16:28:50 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-24 16:28:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-24 16:28:51 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-24 16:28:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 16:28:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 16:28:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 16:28:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 16:28:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 16:28:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:21:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:21:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:21:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-24 18:21:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-24 18:21:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-24 18:21:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-24 18:21:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-24 18:21:56 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-24 18:21:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:21:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:21:56 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-24 18:21:56 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-24 18:21:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:21:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:21:56 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-24 18:21:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:21:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:22:22 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:22:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:22:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-24 18:22:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-24 18:22:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-24 18:22:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-24 18:22:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-24 18:22:27 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-24 18:22:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:22:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:22:27 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-24 18:22:27 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-24 18:22:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:22:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:22:27 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-24 18:22:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:22:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:22:39 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Login heading was not visible; possibly not on login page.
+2025-07-24 18:26:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:26:47 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:26:47 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-24 18:26:47 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-24 18:26:47 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-24 18:26:48 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-24 18:26:48 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-24 18:26:49 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-24 18:26:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:26:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:26:49 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-24 18:26:49 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-24 18:26:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:26:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:26:49 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-24 18:26:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-24 18:26:49 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-24 18:27:00 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-24 18:27:11 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-24 18:27:11 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 22:23:51 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:23:51 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:24:01 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: departure-date-error
+2025-07-26 22:24:01 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Warning message element NOT found – raise bug!
+2025-07-26 22:24:01 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:24:01 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:24:03 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:24:03 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:24:03 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: logout-btn
+2025-07-26 22:24:03 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Logout button NOT found – raise bug!
+2025-07-26 22:24:03 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: logout-btn
+2025-07-26 22:24:03 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Logout button NOT found, cannot perform logout – raise bug!
+2025-07-26 22:28:28 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:28:28 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:28:34 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Navigated to login page: https://webapps.tekstac.com/FlightBooking/login.html
+2025-07-26 22:28:35 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Login performed with provided credentials.
+2025-07-26 22:28:36 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Entered invalid departure date for validation.
+2025-07-26 22:28:36 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: departure-date-error
+2025-07-26 22:28:36 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Warning message element NOT found – raise bug!
+2025-07-26 22:28:36 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:28:36 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:28:36 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Navigated to login page: https://webapps.tekstac.com/FlightBooking/login.html
+2025-07-26 22:28:37 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Login performed with provided credentials.
+2025-07-26 22:28:37 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Entered invalid details for passenger fields.
+2025-07-26 22:28:37 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Displayed total amount does not match expected: 
+2025-07-26 22:28:37 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:28:37 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:28:37 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Navigated to login page: https://webapps.tekstac.com/FlightBooking/login.html
+2025-07-26 22:28:38 [main] INFO  org.agile.qa.stepDefinitions.BookingTest - Login performed with provided credentials.
+2025-07-26 22:28:38 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: logout-btn
+2025-07-26 22:28:38 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Logout button NOT found – raise bug!
+2025-07-26 22:28:38 [main] WARN  org.agile.qa.stepDefinitions.BookingTest - Element NOT found: By.id: logout-btn
+2025-07-26 22:28:38 [main] ERROR org.agile.qa.stepDefinitions.BookingTest - Logout button NOT found, cannot perform logout – raise bug!
+2025-07-26 22:47:53 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:47:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:47:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 22:47:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 22:47:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 22:47:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 22:47:57 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 22:47:57 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 22:47:57 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/no_rememberme_error_present_20250726_224757.png
+2025-07-26 22:47:57 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:47:57 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:47:57 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:47:57 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:47:57 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:47:57 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:47:58 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:47:58 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:48:04 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 22:48:09 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 22:48:09 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 22:51:42 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:51:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:51:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 22:51:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 22:51:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 22:51:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 22:51:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 22:51:45 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/no_rememberme_error_present_20250726_225145.png
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.pages.BaseAuthPage - No alert present after login click.
+2025-07-26 22:51:45 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:51:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:51:52 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 22:51:57 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 22:51:57 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 22:53:23 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:53:25 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:53:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 22:53:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 22:53:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 22:53:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 22:53:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 22:53:27 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 22:53:27 [main] ERROR org.agile.qa.utils.ScreenshotUtils - Failed to save screenshot: ./screenshots/logintest/no_rememberme_error_present_20250726_225327.png
+java.nio.file.NoSuchFileException: ./screenshots/logintest/no_rememberme_error_present_20250726_225327.png
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystem.copyFile(UnixFileSystem.java:668) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystem.copy(UnixFileSystem.java:1075) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:300) ~[?:?]
+	at java.base/java.nio.file.Files.copy(Files.java:1305) ~[?:?]
+	at org.agile.qa.utils.ScreenshotUtils.takeScreenshot(ScreenshotUtils.java:45) ~[test-classes/:?]
+	at org.agile.qa.stepDefinitions.LoginTest.finally_remember_me_error_expected(LoginTest.java:123) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.13.0.jar:7.13.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.13.0.jar:7.13.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.13.0.jar:7.13.0]
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29) ~[cucumber-java-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:107) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:107) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:235) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123) ~[?:?]
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:89) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200) ~[?:?]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1685) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:90) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:78) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:148) ~[cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:163) [cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:146) [cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:78) [cucumber-core-7.13.0.jar:7.13.0]
+	at io.cucumber.core.cli.Main.run(Main.java:87) [cucumber-core-7.13.0.jar:7.13.0]
+	at cucumber.api.cli.Main.run(Main.java:30) [cucumber-core-7.13.0.jar:7.13.0]
+	at cucumber.api.cli.Main.main(Main.java:15) [cucumber-core-7.13.0.jar:7.13.0]
+2025-07-26 22:53:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:53:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:53:27 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:53:27 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:53:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:53:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:53:28 [main] INFO  org.agile.qa.pages.BaseAuthPage - No alert present after login click.
+2025-07-26 22:53:28 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 22:53:28 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:53:28 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:53:34 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 22:53:39 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 22:53:39 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 22:59:41 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:59:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:59:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 22:59:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 22:59:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 22:59:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 22:59:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 22:59:45 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 22:59:45 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Created screenshot directory: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/logintest
+2025-07-26 22:59:45 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/logintest/no_rememberme_error_present_20250726_225945.png
+2025-07-26 22:59:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:59:46 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:59:46 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 22:59:46 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 22:59:46 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:59:46 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:59:46 [main] INFO  org.agile.qa.pages.BaseAuthPage - No alert present after login click.
+2025-07-26 22:59:46 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 22:59:46 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 22:59:46 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 22:59:52 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 22:59:57 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 22:59:57 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:11:41 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:11:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:11:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:11:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:11:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:11:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:11:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 23:11:45 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/logintest/no_rememberme_error_present_20250726_231145.png
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Element screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/captcha_field_copiable_20250726_231145.png
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.pages.BaseAuthPage - No alert present after login click.
+2025-07-26 23:11:45 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:11:45 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:18:41 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:18:42 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:18:42 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:18:42 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:18:42 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:18:42 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:18:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 23:18:43 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:18:43 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/logintest/no_rememberme_error_present_20250726_231843.png
+2025-07-26 23:18:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:18:43 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:18:43 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:18:43 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:18:44 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/captcha_field_copiable_1753552124085.png
+2025-07-26 23:18:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:18:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:18:44 [main] INFO  org.agile.qa.pages.BaseAuthPage - No alert present after login click.
+2025-07-26 23:18:44 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:18:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:18:44 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:18:50 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:18:55 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:18:55 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:23:51 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:23:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:23:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:23:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:23:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:23:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 23:23:55 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Created screenshot directory: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/no_rememberme_error_present_20250726_232355.png
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/captcha_field_copiable_1753552435824.png
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:23:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:23:56 [main] INFO  org.agile.qa.pages.BaseAuthPage - No alert present after login click.
+2025-07-26 23:23:56 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/password_reset_form_not_working_20250726_232356.png
+2025-07-26 23:23:56 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:23:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:23:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:24:02 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:24:07 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:24:07 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_232407.png
+2025-07-26 23:24:07 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:25:17 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:25:20 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:25:20 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:25:20 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:25:20 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:25:21 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:25:21 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 23:25:21 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:25:21 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/no_rememberme_error_present_20250726_232521.png
+2025-07-26 23:25:21 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:25:21 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:25:21 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:25:21 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:25:22 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/captcha_field_copiable_1753552522253.png
+2025-07-26 23:25:22 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:25:22 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:25:22 [main] INFO  org.agile.qa.pages.BaseAuthPage - No alert present after login click.
+2025-07-26 23:25:22 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/password_reset_form_not_working_20250726_232522.png
+2025-07-26 23:25:22 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:25:22 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:25:22 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:25:28 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:25:33 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:25:33 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_232533.png
+2025-07-26 23:25:33 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:28:33 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:28:35 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:28:35 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:28:35 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:28:35 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:28:35 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 23:28:36 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Created screenshot directory: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/no_rememberme_error_present_20250726_2328.png
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/captcha_field_copiable_20250726_2328.png
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:28:36 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:28:37 [main] INFO  org.agile.qa.pages.BaseAuthPage - No alert present after login click.
+2025-07-26 23:28:37 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/password_reset_form_not_working_20250726_2328.png
+2025-07-26 23:28:37 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:28:37 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:28:37 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:28:43 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:28:48 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:28:48 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_2328.png
+2025-07-26 23:28:48 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:34:52 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:34:53 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:34:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:34:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:34:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:34:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:34:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked 
+2025-07-26 23:34:55 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Created screenshot directory: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/no_rememberme_error_present_20250726_2334.png
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/captcha_field_copiable_20250726_2334.png
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:34:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:34:56 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/password_reset_form_not_working_20250726_2334.png
+2025-07-26 23:34:56 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:34:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:34:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:35:02 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:35:07 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:35:07 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_2335.png
+2025-07-26 23:35:07 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:40:53 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:40:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:40:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:40:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:40:54 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:40:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:40:55 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked accept
+2025-07-26 23:40:56 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:40:56 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/no_rememberme_error_present_20250726_2340.png
+2025-07-26 23:40:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:40:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:40:56 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:40:56 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:40:56 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/captcha_field_copiable_20250726_2340.png
+2025-07-26 23:40:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:40:56 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:40:57 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/password_reset_form_not_working_20250726_2340.png
+2025-07-26 23:40:57 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:40:57 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:40:57 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:41:03 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:41:08 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:41:08 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_2341.png
+2025-07-26 23:41:08 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:42:26 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:42:28 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:42:29 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:42:29 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:42:29 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:42:29 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:42:30 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked accept
+2025-07-26 23:42:30 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - One more alert present and accepted
+2025-07-26 23:42:30 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:42:30 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/no_rememberme_error_present_20250726_2342.png
+2025-07-26 23:42:30 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:42:30 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:42:30 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:42:30 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:42:31 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/captcha_field_copiable_20250726_2342.png
+2025-07-26 23:42:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:42:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:42:31 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/password_reset_form_not_working_20250726_2342.png
+2025-07-26 23:42:31 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:42:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:42:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:42:37 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:42:42 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:42:43 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_2342.png
+2025-07-26 23:42:43 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:44:16 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:44:18 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:44:18 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:44:18 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:44:18 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:44:18 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:44:19 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked accept
+2025-07-26 23:44:19 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - One more alert present and accepted
+2025-07-26 23:44:20 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:44:20 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/no_rememberme_error_present_20250726_2344.png
+2025-07-26 23:44:20 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:44:20 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:44:20 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:44:20 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:44:21 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/captcha_field_copiable_20250726_2344.png
+2025-07-26 23:44:21 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:44:21 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:44:21 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/password_reset_form_not_working_20250726_2344.png
+2025-07-26 23:44:21 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:44:21 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:44:21 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:44:27 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:44:32 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:44:32 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_2344.png
+2025-07-26 23:44:32 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.
+2025-07-26 23:50:27 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:50:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:50:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Username sent: 
+2025-07-26 23:50:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Password sent: 
+2025-07-26 23:50:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Set captcha code to empty strings
+2025-07-26 23:50:31 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remeber Me box clicked
+2025-07-26 23:50:32 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Remember me Popup window, clicked accept
+2025-07-26 23:50:33 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - One more alert present and accepted
+2025-07-26 23:50:34 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Remember Me Error was not present, Try creating appropriate error.
+2025-07-26 23:50:34 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/no_rememberme_error_present_20250726_2350.png
+2025-07-26 23:50:34 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:50:34 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:50:34 [main] INFO  org.agile.qa.utils.XmlUtils - File read from src/test/java/org/agile/qa/resources/validLoginCreds.xml
+2025-07-26 23:50:34 [main] INFO  org.agile.qa.utils.XmlUtils - XML Document Normalized.
+2025-07-26 23:50:34 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Contextual screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/captcha_field_copiable_20250726_2350.png
+2025-07-26 23:50:34 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:50:34 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:50:35 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/password_reset_form_not_working_20250726_2350.png
+2025-07-26 23:50:35 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - Password Reset Form is not present
+2025-07-26 23:50:35 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - Driver initiated at LoginTest
+2025-07-26 23:50:35 [main] INFO  org.agile.qa.stepDefinitions.LoginTest - LoginPage initiated successfully
+2025-07-26 23:50:41 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Handle timeout scenario for login page detection.
+2025-07-26 23:50:46 [main] ERROR org.agile.qa.stepDefinitions.LoginTest - No access-denied error displayed; further checks needed.
+2025-07-26 23:50:46 [main] INFO  org.agile.qa.utils.ScreenshotUtils - Screenshot saved at: /home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/./screenshots/loginpage/No_access_denied_error_displayed_20250726_2350.png
+2025-07-26 23:50:46 [main] WARN  org.agile.qa.stepDefinitions.LoginTest - TODO: Proper verification for booking page access denial not yet implemented.

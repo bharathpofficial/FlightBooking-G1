@@ -1,0 +1,8 @@
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/flightbooking/AppTest.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/pages/LoginPage.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/runners/RunnerTests.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/setup/ConfigFileReader.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/setup/DriverSetup.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/stepDefinitions/BookingTest.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/stepDefinitions/LoginTest.java
+/home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/utils/XmlUtils.java

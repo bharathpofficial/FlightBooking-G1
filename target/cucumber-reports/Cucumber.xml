@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="6.466" tests="4" skipped="0" failures="3" errors="0">
+<testcase classname="Login Funtionality check." name="Remember Me validation" time="6.198">
+<system-out><![CDATA[
+Given navigate to the application login URL.................................passed
+Then I enter empty data into form fields....................................passed
+Then I leave the captcha field blank........................................passed
+Then I click on Remember Me checkbox........................................passed
+Then I "accept" the popup window............................................passed
+And Finally Remember me error expected......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Funtionality check." name="Captcha Validation" time="0.05">
+<failure type="io.cucumber.java.PendingException" message="TODO: implement me">
+<![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at org.agile.qa.stepDefinitions.LoginTest.i_enter_valid_data_into_form_fields(LoginTest.java:124)
+	at ✽.I enter valid data into form fields.(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:17)
+]]>
+</failure>
+<system-out><![CDATA[
+Given navigate to the application login URL.................................passed
+Then I enter valid data into form fields....................................pending
+Then I try copying the captcha field........................................skipped
+And the captcha field should not get copyied................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Funtionality check." name="Password Reset" time="0.051">
+<failure type="io.cucumber.java.PendingException" message="TODO: implement me">
+<![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at org.agile.qa.stepDefinitions.LoginTest.i_click_on_the_password_reset_form(LoginTest.java:142)
+	at ✽.I click on the password reset form.(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:22)
+]]>
+</failure>
+<system-out><![CDATA[
+Given navigate to the application login URL.................................passed
+Then I click on the password reset form.....................................pending
+And I get to see the password reset form....................................skipped
+Then enter the email id.....................................................skipped
+Then enter the 'OTP' received for that mail.................................skipped
+And finally set new password and submit.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login Funtionality check." name="Unauthenticated users should not access the booking page." time="0.046">
+<failure type="io.cucumber.java.PendingException" message="TODO: implement me">
+<![CDATA[io.cucumber.java.PendingException: TODO: implement me
+	at org.agile.qa.stepDefinitions.LoginTest.directly_access_the_booking_page_url(LoginTest.java:172)
+	at ✽.directly access the booking page URL(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:29)
+]]>
+</failure>
+<system-out><![CDATA[
+Given navigate to the application login URL.................................passed
+When directly access the booking page URL...................................pending
+Then the user should be redirected to the login page........................skipped
+And the booking page should not be accessible...............................skipped
+]]></system-out>
+</testcase>
+</testsuite>
