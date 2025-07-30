@@ -1,3 +1,4 @@
+@booking
 Feature: Flight Ticket Booking check.
 
 	Background: 

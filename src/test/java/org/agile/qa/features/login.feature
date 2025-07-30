@@ -28,8 +28,9 @@ Feature: Login Funtionality check.
 	Scenario: Unauthenticated users should not access the booking page.
 		When directly access the booking page URL
 		Then the user should be redirected to the login page
-		And the booking page should not be accessible 
-
+		And the booking page should not be accessible
+		 
+	@adamyalogin
 	Scenario: Login with invalid password
         Then I enter valid username "flightadmin" and invalid password "wrongpass"
         Then I click on the Login button

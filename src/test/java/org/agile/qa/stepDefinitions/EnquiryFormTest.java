@@ -25,34 +25,34 @@ import org.openqa.selenium.TimeoutException;
 
 import io.cucumber.datatable.DataTable;
 import org.agile.qa.pages.LoginPage;
+import org.agile.qa.hooks.Hooks;
 import org.agile.qa.pages.EnquiryFormPage;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class EnquiryFormTest {
-	
-	static WebDriver driver;
+
 	ConfigFileReader fileReader = new ConfigFileReader();
 	LoginPage loginWeb;
 	EnquiryFormPage enquiryFormPage;
 	private static final Logger logger = LoggerFactory.getLogger(EnquiryFormTest.class);
 	ScreenshotUtils ss;
 	
-	@Given("navigate to the application login URL")
-	public void navigate_to_the_application_login_url() {
-	    driver = DriverSetup.getDriver();
+	@Given("navigate to the application login URL to enquiry")
+	public void navigate_to_the_application_login_url_to_enquiry() {
+
 	    logger.info("Driver initiated at EnquiryFormTest");
-	    driver.navigate().to(fileReader.getLoginUrl());
+	    Hooks.driver.navigate().to(fileReader.getLoginUrl());
 	    
-	    loginWeb = new LoginPage(driver);
-	    enquiryFormPage = new EnquiryFormPage(driver);
-	    ss = new ScreenshotUtils(driver);
+	    loginWeb = new LoginPage(Hooks.driver);
+	    enquiryFormPage = new EnquiryFormPage(Hooks.driver);
+	    ss = new ScreenshotUtils(Hooks.driver);
 	    logger.info("LoginPage and EnquiryFormPage initiated successfully");
 	}
 
-	@Then("I enter empty data into form fields")
-	public void i_enter_empty_data_into_form_fields(DataTable dataTable) {
+	@Then("I enter empty data into form fields for equiry")
+	public void i_enter_empty_data_into_form_fields_for_equiry(DataTable dataTable) {
 		List<Map<String, String>> data = dataTable.asMaps();
 		
 		List<String> usernameList = new ArrayList<>();
@@ -91,7 +91,7 @@ public class EnquiryFormTest {
 
 	@Then("Finally Error Message to enter subject should be displayed.")
 	public void finally_error_message_to_enter_subject_should_be_displayed() {
-		String pageContent = driver.getPageSource();
+		String pageContent = Hooks.driver.getPageSource();
 		
 		boolean isErrorPresent = pageContent.contains("Please enter subject") || 
 		                        pageContent.contains("Subject is required") ||
@@ -131,7 +131,7 @@ public class EnquiryFormTest {
 
 	@Then("finally error message to ener valid email.")
 	public void finally_error_message_to_ener_valid_email() {
-		String pageContent = driver.getPageSource();
+		String pageContent = Hooks.driver.getPageSource();
 		
 		boolean isErrorPresent = pageContent.contains("Please enter valid email") || 
 		                        pageContent.contains("Invalid email format") ||
@@ -171,7 +171,7 @@ public class EnquiryFormTest {
 
 	@Then("finally error message to enter valid username.")
 	public void finally_error_message_to_enter_valid_username() {
-		String pageContent = driver.getPageSource();
+		String pageContent = Hooks.driver.getPageSource();
 		
 		boolean isErrorPresent = pageContent.contains("Please enter valid username") || 
 		                        pageContent.contains("Invalid username format") ||
@@ -211,7 +211,7 @@ public class EnquiryFormTest {
 
 	@Then("finally error message to enter valid enquiry message should get displayed.")
 	public void finally_error_message_to_enter_valid_enquiry_message_should_get_displayed() {
-		String pageContent = driver.getPageSource();
+		String pageContent = Hooks.driver.getPageSource();
 		
 		boolean isErrorPresent = pageContent.contains("Please enter valid enquiry message") || 
 		                        pageContent.contains("Message is too short") ||
@@ -246,7 +246,7 @@ public class EnquiryFormTest {
 
 	@Then("finally error message to enter valid phone number should appear.")
 	public void finally_error_message_to_enter_valid_phone_number_should_appear() {
-		String pageContent = driver.getPageSource();
+		String pageContent = Hooks.driver.getPageSource();
 		
 		boolean isErrorPresent = pageContent.contains("Please enter valid phone number") || 
 		                        pageContent.contains("Invalid phone number format") ||

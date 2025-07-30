@@ -2,10 +2,10 @@
 Feature: Enquiry Form check.
 
 	Background:
-		Given navigate to the application login URL
+		Given navigate to the application login URL to enquiry
 
 	Scenario: Enquiry Form Subject Verification
-		Then I enter empty data into form fields
+		Then I enter empty data into form fields for equiry
 		|username|password|
 		|||
 		Then I visit enquiry form.
