@@ -10,7 +10,7 @@ import io.cucumber.core.cli.Main;
 @Test
 @CucumberOptions(
 		features = "src/test/java/org/agile/qa/features",
-		glue = {"org.agile.qa.stepDefinitions", "org.agile.qa.hooks"},
+		glue = {"org.agile.qa.stepDefinitions"},
 		plugin = {"pretty", "junit:target/cucumber-reports/Cucumber.xml"},
 		tags = "@login"
 	)
