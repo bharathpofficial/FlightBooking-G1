@@ -53,4 +53,9 @@ public class ConfigFileReader {
 	public String getValidBookingExcelPath() {
 		return properties.getProperty("validBookingExcel");
 	}
+	
+	public String getFlightSearchUrl() {
+        return properties.getProperty("flightSearchUrl");
+    }
+
 }

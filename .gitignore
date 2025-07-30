@@ -6,6 +6,7 @@
 !.gitignore
 
 # Ignore common files and directories
+
 node_modules/
 dist/
 build/
@@ -23,6 +24,7 @@ yarn-debug.log*
 yarn-error.log*
 *.local
 *.test.*
+.classpath
 *.spec.*
 *.cache/
 *.out
