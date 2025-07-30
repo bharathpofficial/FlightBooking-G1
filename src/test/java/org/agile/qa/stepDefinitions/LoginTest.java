@@ -212,6 +212,17 @@ public class LoginTest {
 	        logger.warn("TODO: Handle timeout scenario for login page detection.");
 	    }
 	}
+	
+    @Then("I enter valid username {string} and invalid password {string}")
+    public void i_enter_valid_username_and_invalid_password(String username, String password) {
+		loginWeb.setUsername(username);
+		loginWeb.setPassword(password);
+    }
+    
+    @Then("I click on the Login button")
+    public void i_click_on_the_login_button() {
+    	loginWeb.clickLoginBtn();
+    }
 
 	@Then("the booking page should not be accessible")
 	public void the_booking_page_should_not_be_accessible() {

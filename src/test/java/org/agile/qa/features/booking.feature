@@ -26,13 +26,13 @@ Feature: Flight Ticket Booking check.
 	@adamyaBooking
 	Scenario: Submit form with empty fields
     Then I leave all booking form fields empty
-    Then I click on the Submit button
+    Then Click the Book Now button.
     And I should see an error message saying "Can't leave input fields Empty"
 	
 	@adamyaBooking
   Scenario: Submit form with valid inputs
     Then I enter valid details in all booking form fields
         | travel_from   | travel_to | departure_date | class  | passenger_name     | email              | phone       | passengers |
-        | delhi         | dubai     | 04/07/2025      | luxury | Adamya Kr Pandey   | akpandey@gmail.com | 9876543210  | 1          |
-    Then I click on the Submit button
+        | delhi         | dubai     | 04/07/2025      | Luxury Class | Adamya Kr Pandey   | akpandey@gmail.com | 9876543210  | 1          |
+    Then Click the Book Now button.
     And I should see a confirmation message saying "Your flight reservation is confirmed"

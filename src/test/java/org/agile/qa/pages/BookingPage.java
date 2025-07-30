@@ -137,6 +137,7 @@ public class BookingPage extends BaseAuthPage {
 
     public void clickBookNow() {
         waitForClickable(bookNowButton);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", bookNowButton);
         bookNowButton.click();
     }
 

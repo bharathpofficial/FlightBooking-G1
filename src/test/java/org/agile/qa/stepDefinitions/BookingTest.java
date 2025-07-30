@@ -210,12 +210,6 @@ public class BookingTest {
 	    logger.info("Left all form fields empty.");
 	}
 
-	@Then("I click on the Submit button")
-	public void i_click_on_the_submit_button() {
-	    bookingform.clickBookNow();
-	    logger.info("Clicked Submit button.");
-	}
-
 	@Then("I should see an error message saying {string}")
 	public void i_should_see_an_error_message_saying(String expectedErrorMsg) {
 	    WebElement errorMsg = safeFindElement(By.id("form-error-msg"));

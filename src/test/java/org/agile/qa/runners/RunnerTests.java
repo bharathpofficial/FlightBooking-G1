@@ -13,7 +13,7 @@ import io.cucumber.core.cli.Main;
 		glue = {"org.agile.qa.stepDefinitions", "org.agile.qa.hooks"},
 		plugin = {"pretty", "junit:target/cucumber-reports/Cucumber.xml"},
 //		tags = "not @adamya and not @adamyaBooking and not @adamyalogin and not @enquiry"
-		tags = "@adamya or @adamyabooking or @adamyalogin"
+		tags = "@adamyaBooking"
 	)
 
 public class RunnerTests extends AbstractTestNGCucumberTests{
