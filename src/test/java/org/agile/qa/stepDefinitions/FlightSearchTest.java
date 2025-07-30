@@ -58,7 +58,7 @@ public class FlightSearchTest {
         Assert.assertNotNull(details);
         Assert.assertTrue(details.isDisplayed());
         logger.info("Flight details are displayed for flight number.");
-    }
+    } 
 
     @Then("I enter a valid flight name in the \"Search by Flight Name\" field")
     public void i_enter_valid_flight_name() {
