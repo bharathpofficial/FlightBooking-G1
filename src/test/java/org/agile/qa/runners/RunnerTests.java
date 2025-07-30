@@ -11,7 +11,8 @@ import io.cucumber.core.cli.Main;
 @CucumberOptions(
 		features = "src/test/java/org/agile/qa/features",
 		glue = {"org.agile.qa.stepDefinitions", "org.agile.qa.hooks"},
-		plugin = {"pretty", "junit:target/cucumber-reports/Cucumber.xml"}
+		plugin = {"pretty", "junit:target/cucumber-reports/Cucumber.xml"},
+		tags = "@adamya or @adamyaBooking"
 	)
 
 public class RunnerTests extends AbstractTestNGCucumberTests{

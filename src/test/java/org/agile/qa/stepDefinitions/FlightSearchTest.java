@@ -1,5 +1,6 @@
 package org.agile.qa.stepDefinitions;
 
+import org.agile.qa.hooks.Hooks;
 import org.agile.qa.pages.FlightSearchPage;
 import org.agile.qa.setup.ConfigFileReader;
 import org.agile.qa.setup.DriverSetup;
@@ -15,7 +16,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class FlightSearchTest {
-    private WebDriver driver;
     private FlightSearchPage searchPage;
     private ConfigFileReader config = new ConfigFileReader();
     private XmlUtils xml = new XmlUtils();
@@ -23,9 +23,8 @@ public class FlightSearchTest {
 
     @Given("I am logged in with valid credentials")
     public void i_am_logged_in_with_valid_credentials() {
-        driver = DriverSetup.getDriver();
-        driver.navigate().to(config.getLoginUrl());
-        searchPage = new FlightSearchPage(driver);
+        Hooks.driver.navigate().to(config.getLoginUrl());
+        searchPage = new FlightSearchPage(Hooks.driver);
 
         searchPage.setUsername(xml.getAdminUsername());
         searchPage.setPassword(xml.getAdminPassword());
@@ -37,7 +36,7 @@ public class FlightSearchTest {
 
     @Given("I navigate to the flight search page")
     public void i_navigate_to_the_flight_search_page() {
-        driver.navigate().to(config.getFlightSearchUrl());
+        Hooks.driver.navigate().to(config.getFlightSearchUrl());
         logger.info("Navigated to flight search page: {}", config.getFlightSearchUrl());
     }
 
@@ -103,7 +102,7 @@ public class FlightSearchTest {
 
     public WebElement safeFindElement(By locator) {
         try {
-            return driver.findElement(locator);
+            return Hooks.driver.findElement(locator);
         } catch (org.openqa.selenium.NoSuchElementException e) {
             logger.warn("Element not found: {}", locator);
             return null;

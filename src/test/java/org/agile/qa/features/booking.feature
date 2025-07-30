@@ -22,11 +22,13 @@ Feature: Flight Ticket Booking check.
 		Then enter valid details.
 		And Click the Book Now button.
 		
+	@adamyaBooking
 	Scenario: Submit form with empty fields
     Then I leave all booking form fields empty
     Then I click on the Submit button
     And I should see an error message saying "Can't leave input fields Empty"
-
+	
+	@adamyaBooking
   Scenario: Submit form with valid inputs
     Then I enter valid details in all booking form fields
         | travel_from   | travel_to | departure_date | class  | passenger_name     | email              | phone       | passengers |
