@@ -1,6 +1,7 @@
 package org.agile.qa.stepDefinitions;
 
 import java.time.Duration;
+import java.util.Map;
 
 import org.agile.qa.pages.BookingPage;
 import org.agile.qa.setup.ConfigFileReader;
@@ -151,5 +152,62 @@ public class BookingTest {
 	    }
 	}
 
+//Adamya 	
+	@Then("I leave all booking form fields empty")
+	public void i_leave_all_booking_form_fields_empty() {
+	    bookingform.setTravelFrom("");
+	    bookingform.setTravelTo("");
+	    bookingform.setDepartureDate("");
+	    bookingform.setPassengerName("");
+	    bookingform.setEmail("");
+	    bookingform.setPhone("");
+	    logger.info("Left all form fields empty.");
+	}
 
+	@Then("I click on the Submit button")
+	public void i_click_on_the_submit_button() {
+	    bookingform.clickBookNow();
+	    logger.info("Clicked Submit button.");
+	}
+
+	@Then("I should see an error message saying {string}")
+	public void i_should_see_an_error_message_saying(String expectedErrorMsg) {
+	    WebElement errorMsg = safeFindElement(By.id("form-error-msg"));
+	    if (errorMsg != null) {
+	        wait.until(ExpectedConditions.visibilityOf(errorMsg));
+	        Assert.assertEquals(errorMsg.getText().trim(), expectedErrorMsg);
+	        logger.info("Displayed error message matches expected.");
+	    } else {
+	        logger.error("Error message element not found, raise bug!");
+	    }
+	}
+
+	@Then("I enter valid details in all booking form fields")
+	public void i_enter_valid_details_in_all_booking_form_fields(DataTable dataTable) {
+	    List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+	    Map<String, String> row = data.get(0);
+	    bookingform.setTravelFrom(row.get("travel_from"));
+	    bookingform.setTravelTo(row.get("travel_to"));
+	    bookingform.setDepartureDate(row.get("departure_date"));
+	    bookingform.selectClass(row.get("class"));
+	    bookingform.setPassengerName(row.get("passenger_name"));
+	    bookingform.setEmail(row.get("email"));
+	    bookingform.setPhone(row.get("phone"));
+
+	    int passengerCount = Integer.parseInt(row.get("passengers"));
+	    bookingform.increaseTicketCountTo(passengerCount);
+	    logger.info("Filled valid form details from DataTable.");
+	}
+
+	@Then("I should see a confirmation message saying {string}")
+	public void i_should_see_a_confirmation_message_saying(String expectedMessage) {
+	    WebElement confirmMsg = safeFindElement(By.id("booking-confirm-msg"));
+	    if (confirmMsg != null) {
+	        wait.until(ExpectedConditions.visibilityOf(confirmMsg));
+	        Assert.assertEquals(confirmMsg.getText().trim(), expectedMessage);
+	        logger.info("Confirmation message matches expected.");
+	    } else {
+	        logger.error("Confirmation message not found, raise bug!");
+	    }
+	}
 }
