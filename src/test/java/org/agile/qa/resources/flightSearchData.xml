@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flights>
+    <flight>
+        <flightNumber>AC789</flightNumber>
+        <flightName>SkyRider Express</flightName>
+        <flightType>Layover flight</flightType>
+        <runDays>M,T,W,T,F,S,S</runDays>
+        <departureTime>23:25</departureTime>
+        <arrivalTime>05:55</arrivalTime>
+    </flight>
+    <flight>
+        <flightNumber>BL236</flightNumber>
+        <flightName>Horizon Jetstream</flightName>
+        <flightType>Layover flight</flightType>
+        <runDays>M,T,W,T,F,S,S</runDays>
+        <departureTime>23:40</departureTime>
+        <arrivalTime>06:00</arrivalTime>
+    </flight>
+    <flight>
+        <flightNumber>EK702</flightNumber>
+        <flightName>Stellar Voyager</flightName>
+        <flightType>Direct Flight</flightType>
+        <runDays>M,W,F</runDays>
+        <departureTime>20:00</departureTime>
+        <arrivalTime>22:00</arrivalTime>
+    </flight>
+    <flight>
+        <flightNumber>UA555</flightNumber>
+        <flightName>Celestial Skyliner</flightName>
+        <flightType>Direct Flight</flightType>
+        <runDays>M,T,W,T,F,S,S</runDays>
+        <departureTime>13:55</departureTime>
+        <arrivalTime>16:00</arrivalTime>
+    </flight>
+    <flight>
+        <flightNumber>LH123</flightNumber>
+        <flightName>Unity Express</flightName>
+        <flightType>Direct Flight</flightType>
+        <runDays>M,T,W,T,F,S,S</runDays>
+        <departureTime>06:45</departureTime>
+        <arrivalTime>08:50</arrivalTime>
+    </flight>
+    <flight>
+        <flightNumber>SG789</flightNumber>
+        <flightName>Blue Horizon Explorer</flightName>
+        <flightType>Layover flight</flightType>
+        <runDays>M,T,W,T,F,S,S</runDays>
+        <departureTime>21:45</departureTime>
+        <arrivalTime>04:50</arrivalTime>
+    </flight>
+</flights>

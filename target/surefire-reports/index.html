@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
+                    <span class="method-stats">5 methods, 5 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,12 +102,17 @@
                     <div class="method-list-content failed suite-Surefire_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.agile.qa.runners.RunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Password Reset&quot;, &quot;Login Funtionality check.&quot;)">runScenario("Password Reset", "Login Funtionality check.")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.agile.qa.runners.RunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Unauthenticated users should not access the booking page.&quot;, &quot;Login Funtionality check.&quot;)">runScenario("Unauthenticated users should not access the booking page.", "Login Funtionality check.")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.agile.qa.runners.RunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Unauthenticated users should not access the booking page.&quot;, &quot;Login Funtionality check.&quot;)">runScenario("Unauthenticated users should not access the booking page.", "Login Funtionality check.")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.agile.qa.runners.RunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Login with invalid password&quot;, &quot;Login Funtionality check.&quot;)">runScenario("Login with invalid password", "Login Funtionality check.")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.agile.qa.runners.RunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Remember Me validation&quot;, &quot;Login Funtionality check.&quot;)">runScenario("Remember Me validation", "Login Funtionality check.")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -115,21 +120,12 @@
                         <a href="#" panel-name="suite-Surefire_suite" title="org.agile.qa.runners.RunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Captcha Validation&quot;, &quot;Login Funtionality check.&quot;)">runScenario("Captcha Validation", "Login Funtionality check.")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Surefire_suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
-                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Surefire_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="org.agile.qa.runners.RunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Remember Me validation&quot;, &quot;Login Funtionality check.&quot;)">runScenario("Remember Me validation", "Login Funtionality check.")</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="org.agile.qa.runners.RunnerTests" class="method navigator-link" hash-for-method="runScenario(&quot;Password Reset&quot;, &quot;Login Funtionality check.&quot;)">runScenario("Password Reset", "Login Funtionality check.")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -149,13 +145,25 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Password Reset&quot;, &quot;Login Funtionality check.&quot;)">
-                  </a> <!-- runScenario("Password Reset", "Login Funtionality check.") -->
+                  <a name="runScenario(&quot;Unauthenticated users should not access the booking page.&quot;, &quot;Login Funtionality check.&quot;)">
+                  </a> <!-- runScenario("Unauthenticated users should not access the booking page.", "Login Funtionality check.") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Password Reset", "Login Funtionality check.")</span>
-                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.i_click_on_the_password_reset_form(LoginTest.java:142)
-	at ✽.I click on the password reset form.(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:22)
+                  <span class="parameters">("Unauthenticated users should not access the booking page.", "Login Funtionality check.")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: geckodriver located at /usr/bin/geckodriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at org.agile.qa.setup.DriverSetup.getDriver(DriverSetup.java:13)
+	at org.agile.qa.stepDefinitions.LoginTest.navigate_to_the_application_login_url(LoginTest.java:42)
+	at ✽.navigate to the application login URL(file:///E:/flightBooking/FlightBooking-G1/src/test/java/org/agile/qa/features/login.feature:5)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -164,13 +172,52 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Unauthenticated users should not access the booking page.&quot;, &quot;Login Funtionality check.&quot;)">
-                  </a> <!-- runScenario("Unauthenticated users should not access the booking page.", "Login Funtionality check.") -->
+                  <a name="runScenario(&quot;Login with invalid password&quot;, &quot;Login Funtionality check.&quot;)">
+                  </a> <!-- runScenario("Login with invalid password", "Login Funtionality check.") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Unauthenticated users should not access the booking page.", "Login Funtionality check.")</span>
-                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.directly_access_the_booking_page_url(LoginTest.java:172)
-	at ✽.directly access the booking page URL(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:29)
+                  <span class="parameters">("Login with invalid password", "Login Funtionality check.")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: geckodriver located at /usr/bin/geckodriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at org.agile.qa.setup.DriverSetup.getDriver(DriverSetup.java:13)
+	at org.agile.qa.stepDefinitions.LoginTest.navigate_to_the_application_login_url(LoginTest.java:42)
+	at ✽.navigate to the application login URL(file:///E:/flightBooking/FlightBooking-G1/src/test/java/org/agile/qa/features/login.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Remember Me validation&quot;, &quot;Login Funtionality check.&quot;)">
+                  </a> <!-- runScenario("Remember Me validation", "Login Funtionality check.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Remember Me validation", "Login Funtionality check.")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: geckodriver located at /usr/bin/geckodriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at org.agile.qa.setup.DriverSetup.getDriver(DriverSetup.java:13)
+	at org.agile.qa.stepDefinitions.LoginTest.navigate_to_the_application_login_url(LoginTest.java:42)
+	at ✽.navigate to the application login URL(file:///E:/flightBooking/FlightBooking-G1/src/test/java/org/agile/qa/features/login.feature:5)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -183,9 +230,48 @@
                   </a> <!-- runScenario("Captcha Validation", "Login Funtionality check.") -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("Captcha Validation", "Login Funtionality check.")</span>
-                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
-	at org.agile.qa.stepDefinitions.LoginTest.i_enter_valid_data_into_form_fields(LoginTest.java:124)
-	at ✽.I enter valid data into form fields.(file:///home/windass/Documents/works/cognizant/case-study/sprint2/implementation/flightbooking/src/test/java/org/agile/qa/features/login.feature:17)
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: geckodriver located at /usr/bin/geckodriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at org.agile.qa.setup.DriverSetup.getDriver(DriverSetup.java:13)
+	at org.agile.qa.stepDefinitions.LoginTest.navigate_to_the_application_login_url(LoginTest.java:42)
+	at ✽.navigate to the application login URL(file:///E:/flightBooking/FlightBooking-G1/src/test/java/org/agile/qa/features/login.feature:5)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Password Reset&quot;, &quot;Login Funtionality check.&quot;)">
+                  </a> <!-- runScenario("Password Reset", "Login Funtionality check.") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Password Reset", "Login Funtionality check.")</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.NoSuchDriverException: geckodriver located at /usr/bin/geckodriver, but invalid
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:45)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:13)
+	at org.openqa.selenium.firefox.FirefoxDriver.generateExecutor(FirefoxDriver.java:141)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
+	at org.agile.qa.setup.DriverSetup.getDriver(DriverSetup.java:13)
+	at org.agile.qa.stepDefinitions.LoginTest.navigate_to_the_application_login_url(LoginTest.java:42)
+	at ✽.navigate to the application login URL(file:///E:/flightBooking/FlightBooking-G1/src/test/java/org/agile/qa/features/login.feature:5)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -194,24 +280,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-failed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">org.agile.qa.runners.RunnerTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Remember Me validation&quot;, &quot;Login Funtionality check.&quot;)">
-                  </a> <!-- runScenario("Remember Me validation", "Login Funtionality check.") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Remember Me validation", "Login Funtionality check.")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -224,6 +292,8 @@
   &lt;test name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;org.agile.qa.runners.RunnerTests&quot;/&gt;
+      &lt;class name=&quot;org.agile.qa.stepDefinitions.BookingTest&quot;/&gt;
+      &lt;class name=&quot;org.agile.qa.stepDefinitions.FlightSearchTest&quot;/&gt;
       &lt;class name=&quot;org.agile.qa.stepDefinitions.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
@@ -238,7 +308,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (2 classes)</span>
+                <span class="test-name">Surefire test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -272,28 +342,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'org.agile.qa.runners.RunnerTests')
-data.setCell(0, 3, 6262);
+data.setCell(0, 3, 1082);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'org.agile.qa.runners.RunnerTests')
-data.setCell(1, 3, 58);
+data.setCell(1, 3, 75);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'org.agile.qa.runners.RunnerTests')
-data.setCell(2, 3, 55);
+data.setCell(2, 3, 22);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'org.agile.qa.runners.RunnerTests')
-data.setCell(3, 3, 51);
+data.setCell(3, 3, 22);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'org.agile.qa.runners.RunnerTests')
+data.setCell(4, 3, 17);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -321,34 +395,42 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">org.agile.qa.runners.RunnerTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@493ac8d3)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@7c8326a4)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">runScenario("Remember Me validation", "Login Funtionality check.")</span>
-                <span class="method-start">200 ms</span>
+                <span class="method-start">390 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Captcha Validation", "Login Funtionality check.")</span>
-                <span class="method-start">6463 ms</span>
+                <span class="method-start">1476 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Password Reset", "Login Funtionality check.")</span>
-                <span class="method-start">6520 ms</span>
+                <span class="method-start">1500 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Unauthenticated users should not access the booking page.", "Login Funtionality check.")</span>
-                <span class="method-start">6578 ms</span>
+                <span class="method-start">1523 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Login with invalid password", "Login Funtionality check.")</span>
+                <span class="method-start">1544 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">6630 ms</span>
+                <span class="method-start">1622 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
