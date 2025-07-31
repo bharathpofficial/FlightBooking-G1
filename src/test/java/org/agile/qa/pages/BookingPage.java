@@ -136,9 +136,18 @@ public class BookingPage extends BaseAuthPage {
     }
 
     public void clickBookNow() {
+    	
+//    	  WebElement bookNowButton=driver.findElement(By.id("book-now"));
+//
+//	        JavascriptExecutor js = (JavascriptExecutor) driver;
+//
+//	        js.executeScript("arguments[0].scrollIntoView(true);", bookNowButton);
+//
+//	        js.executeScript("arguments[0].click();", bookNowButton);
+
         waitForClickable(bookNowButton);
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", bookNowButton);
-        bookNowButton.click();
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", bookNowButton);
     }
 
     public void clickResetNow() {

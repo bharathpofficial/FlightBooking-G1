@@ -1,0 +1,8 @@
+<extentreports>
+    <configuration>
+        <theme>standard</theme>
+        <documentTitle>FlightBooking Test Report</documentTitle>
+        <reportName>Automation Results</reportName>
+        <timelineEnabled>false</timelineEnabled>
+    </configuration>
+</extentreports>
